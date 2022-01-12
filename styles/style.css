@@ -61,6 +61,12 @@ hr{
 /* ====================================== */
 /* courses styles */
 /* ========================================= */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+}
+
 
 .course .course-banner img{
     height: 104px;
@@ -79,6 +85,8 @@ hr{
 
 .course-info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
